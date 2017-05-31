@@ -1,0 +1,13 @@
+{
+  "name": "test-js-git-repo",
+  "version": "0.0.0",
+  "files":[
+    "dependency-package.json"
+  ],
+  "scripts": {
+    "prepare": "node prepare.js"
+  },
+  "dependencies": {
+    "beeper": "https://github.com/sindresorhus/beeper.git"
+  }
+}
