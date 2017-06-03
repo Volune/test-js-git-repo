@@ -2,9 +2,20 @@
   "name": "test-js-git-repo",
   "version": "0.0.0",
   "files":[
-    "dependency-package.json"
+    "dependency-package.json",
+    "generated/"
   ],
   "scripts": {
+    "preinstall": "node log.js preinstall",
+    "install": "node log.js install",
+    "postinstall": "node log.js postinstall",
+    "prepack": "node log.js prepack",
+    "pack": "node log.js pack",
+    "postpack": "node log.js postpack",
+    "prepublish": "node log.js prepublish",
+    "prepublishOnly": "node log.js prepublishonly",
+    "publish": "node log.js publish",
+    "postpublish": "node log.js postpublish",
     "prepare": "node prepare.js"
   },
   "dependencies": {
