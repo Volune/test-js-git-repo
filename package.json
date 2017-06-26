@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "files":[
     "dependency-package.json",
+    "testscript.output.txt",
     "generated/"
   ],
   "scripts": {
@@ -16,9 +17,10 @@
     "prepublishOnly": "node log.js prepublishonly",
     "publish": "node log.js publish",
     "postpublish": "node log.js postpublish",
-    "prepare": "node prepare.js"
+    "prepare": "testscript && node prepare.js"
   },
   "dependencies": {
-    "beeper": "https://github.com/sindresorhus/beeper.git"
+    "beeper": "https://github.com/sindresorhus/beeper.git",
+    "test-js-git-repo": "https://github.com/Volune/test-js-git-repo#bin"
   }
 }
