@@ -1,0 +1,10 @@
+{
+  "name": "test-js-git-repo-bin",
+  "version": "0.0.0",
+  "bin": {
+    "testscript": "./bin/testscript.js"
+  },
+  "files": [
+    "bin/"
+  ]
+}
