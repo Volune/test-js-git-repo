@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "files":[
     "dependency-package.json",
+    "log.js",
     "testscript.output.txt",
     "generated/"
   ],
